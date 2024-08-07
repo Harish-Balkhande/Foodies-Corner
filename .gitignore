@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/fos_frontend/node_modules
+/fos_frontend/.pnp
+/fos_frontend/.pnp.js
+/fos_frontend/.yarn/install-state.gz
+
+# testing
+/fos_frontend/coverage
+
+# next.js
+/fos_frontend/.next/
+/fos_frontend/out/
+
+# production
+/fos_frontend/build
+
+# misc
+/fos_frontend.DS_Store
+/fos_frontend/*.pem
+
+# debug
+/fos_frontend/npm-debug.log*
+/fos_frontend/yarn-debug.log*
+/fos_frontend/yarn-error.log*
+
+# local env files
+/fos_frontend/.env*.local
+
+# vercel
+/fos_frontend/.vercel
+
+# typescript
+/fos_frontend/*.tsbuildinfo
+/fos_frontend/next-env.d.ts
